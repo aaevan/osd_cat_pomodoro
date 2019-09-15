@@ -3,7 +3,7 @@ A minimal pomodoro timer using osd_cat.
 
 ![](/example.png)
 
-by default, the timer runs for 25 minutes (in red) followed by a large "TAKE A BREAK" message. After that, the break timer runs for 5 minutes (in green).
+By default, the timer runs for 25 minutes (in red) followed by a large "TAKE A BREAK" message. After that, the break timer runs for 5 minutes (in green).
 
 After the break is done, a popup (using zenity) asks "Again?" with a yes or no. Yes starts the script again.
 
