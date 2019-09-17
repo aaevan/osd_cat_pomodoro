@@ -99,7 +99,7 @@ if [ $WILL_BREAK -eq 1 ];
     then
     if zenity --question --text="Again?";
         then
-        ~/scripts/pomodoro.sh & 
+        ~/scripts/pomodoro.sh -m $minutes -s $seconds & 
         else
         exit
     fi
